@@ -1,0 +1,31 @@
+{
+  "name": "notes-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel public/index.html --open",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyaranat/Notes-Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyaranat/Notes-Frontend/issues"
+  },
+  "homepage": "https://github.com/divyaranat/Notes-Frontend#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "parcel": "^2.9.3",
+    "parcel-bundler": "^1.12.5",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  }
+}
